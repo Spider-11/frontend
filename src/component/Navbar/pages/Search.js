@@ -9,7 +9,7 @@ const Search = () => {
 
   // Fetch PG data from the backend
   useEffect(() => {
-    fetch('http://localhost:5000/api/pg/list')
+    fetch('https://pgbackend-6998.onrender.com/api/pg/list')
       .then((response) => response.json())
       .then((data) => {
         console.log('Fetched PGs:', data); // Debugging log
