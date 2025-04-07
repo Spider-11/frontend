@@ -11,7 +11,7 @@ const Users = () => {
 
     const fetchUsers = async () => {
         try {
-            const response = await axios.get("http://localhost:5000/api/show/Users");
+            const response = await axios.get("https://pgbackend-6998.onrender.com/api/show/Users");
             setUsers(response.data);
         } catch (error) {
             console.error("Error fetching users:", error);
@@ -22,7 +22,7 @@ const Users = () => {
         if (!window.confirm("Are you sure you want to delete this user?")) return;
 
         try {
-            await axios.delete(`http://localhost:5000/api/delete/${id}`);
+            await axios.delete(`https://pgbackend-6998.onrender.com/api/delete/${id}`);
             setUsers(users.filter((user) => user._id !== id));
             alert("✅ User Deleted Successfully");
         } catch (error) {
