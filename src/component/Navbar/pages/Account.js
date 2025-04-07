@@ -13,7 +13,7 @@ const Account = () => {
 
 useEffect(() => {
   if (userId) {
-    axios.get(`http://localhost:5000/api/auth/user/${userId}`)
+    axios.get(`https://pgbackend-6998.onrender.com/api/auth/user/${userId}`)
       .then(response => setUser(response.data))
       .catch(error => console.error("Error fetching user data: ", error));
   } else {
@@ -26,13 +26,13 @@ useEffect(() => {
   }
 
   const handleUpdate=(e)=>{
-    axios.put(`http://localhost:5000/api/auth/user/${userId}`,user)
+    axios.put(`https://pgbackend-6998.onrender.com/api/auth/user/${userId}`,user)
       .then(response=>alert("User Updated Successfully"))
       .catch(error=>console.error("Error Updating user Data: ",error));
   };
 
   const handleDelete=(e)=>{
-    axios.delete(`http://localhost:5000/api/auth/user/${userId}`)
+    axios.delete(`https://pgbackend-6998.onrender.com/api/auth/user/${userId}`)
       .then(response=>{alert("Acount Deleted Successfully");
         localStorage.removeItem("user");
         localStorage.clear();
