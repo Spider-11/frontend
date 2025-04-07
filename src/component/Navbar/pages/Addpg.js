@@ -46,7 +46,7 @@ const Addpg = () => {
         formData.append("ownerId", ownerId); // ✅ Ensure ownerId is sent
     
         try {
-            const response = await axios.post('http://localhost:5000/api/pg/addpg', formData, {
+            const response = await axios.post('https://pgbackend-6998.onrender.com/api/pg/addpg', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' }
             });
     
