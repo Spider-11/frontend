@@ -26,7 +26,7 @@ const UserBookings=()=>{
         const fetchBookings = async () => {
             try {
                 console.log("Fetching bookings for user:", user._id);
-                const response = await axios.get(`http://localhost:5000/api/bookings/status/${user._id}`);
+                const response = await axios.get(`https://pgbackend-6998.onrender.com/api/bookings/status/${user._id}`);
                 setBookings(response.data);
             } catch (error) {
                 console.error("Error fetching bookings:", error);
