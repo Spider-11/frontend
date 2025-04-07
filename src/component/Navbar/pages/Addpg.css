@@ -1,0 +1,129 @@
+.container2 {
+    width: 100%;
+    margin: 10px 20%;
+    justify-content: center;
+    align-items: center;
+}
+.hh{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(41, 45, 80);
+    font-size: 30px;
+    caret-color: transparent;
+}
+.entryarea2 {
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+}
+
+.hov2 {
+    position: absolute;
+    width: 50%;
+    outline: none;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 0 30px;
+    line-height: 60px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelline2 {
+    position: absolute;
+    font-size: 1.6rem;
+    color: black;
+    padding: 0 18px;
+    margin: 0 10px;
+    background-color: white;
+    transition: 0.2s ease;
+
+}
+
+.hov2:focus,
+.hov2:valid{
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 156, 247);
+}
+
+.hov2:focus + .labelline2,
+.hov2:valid + .labelline2 {
+    color: rgb(0, 202, 202);
+    height: 30px;
+    line-height: 30px;
+    transform: translate(-15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+.login2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login2 .bt2{
+    width: 30%;
+    color: white;
+    background-color: rgb(44, 44, 255);
+    height: 40px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+
+.entryarea6 {
+    position: relative;
+    height: 80px;
+    line-height: 40px;
+}
+
+.hov6 {
+    position: absolute;
+    width: 55%;
+    height: 55px;
+    outline: none;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 0 30px;
+    line-height: 60px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelline6 {
+    position: absolute;
+    font-size: 1.6rem;
+    color: black;
+    padding: 0 10px;
+    margin: 5px 15px;
+    background-color: white;
+    transition: 0.2s ease;
+
+}
+
+.hov6:focus,
+.hov6:valid{
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 156, 247);
+}
+
+.hov6:focus + .labelline6,
+.hov6:valid + .labelline6 {
+    color: rgb(0, 202, 202);
+    height: 30px;
+    line-height: 30px;
+    transform: translate(-15px,-16px) scale(0.88);
+    z-index: 1111;
+}

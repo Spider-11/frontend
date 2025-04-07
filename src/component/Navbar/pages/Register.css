@@ -1,0 +1,142 @@
+.form1{
+    align-items: center;
+    justify-content: center;
+    margin: 5% auto;
+    width: 40% ;
+    height: auto;
+    border: 3px solid gray;
+    border-radius: 10px;
+    position: relative;
+    
+
+}
+.form1 .title1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container1 {
+    
+    width: 100%;
+    margin: 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.entryarea1 {
+    position: relative;
+    height: 60px;
+    line-height: 50px;
+}
+.entryarea9 {
+    position: relative;
+    height: 60px;
+    line-height: 40px;
+}
+
+.hov1 {
+    position: absolute;
+    cursor: text;
+    width: 80%;
+    outline: none;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 0 30px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    align-items: center;
+    justify-content: center;
+}
+.hov9 {
+    position: absolute;
+    width: 90%;
+    outline: none;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 0 30px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    align-items: center;
+    justify-content: center;
+}
+.labelline1 {
+    position: absolute;
+    font-size: 1.4rem;
+    color: black;
+    padding: 0 10px;
+    margin: 0 10px;
+    background-color: white;
+    transition: 0.2s ease;
+
+}
+.labelline9 {
+    position: absolute;
+    font-size: 1.4rem;
+    color: black;
+    padding: 0 10px;
+    margin: 0 10px;
+    background-color: white;
+    transition: 0.2s ease;
+
+}
+
+.hov1:focus,
+.hov1:valid{
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 156, 247);
+}
+
+.hov9:focus,
+.hov9:valid{
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 156, 247);
+}
+.hov1:focus + .labelline1,
+.hov1:valid + .labelline1 {
+    color: rgb(0, 202, 202);
+    height: 30px;
+    line-height: 20px;
+    transform: translate(-15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+.hov9:focus + .labelline9,
+.hov9:valid + .labelline9 {
+    color: rgb(0, 202, 202);
+    height: 30px;
+    line-height: 20px;
+    transform: translate(-15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+.login1{
+    display: flex;
+}
+.login1 .bt1{
+    width: 60%;
+    color: white;
+    background-color: rgb(44, 44, 255);
+    height: 40px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+.regist1 h4{
+    text-align: right;
+}
+
+.regist1 h4 a{
+    text-decoration: none;
+    color: rgb(67, 154, 211);
+}

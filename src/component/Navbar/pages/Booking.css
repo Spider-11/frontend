@@ -1,0 +1,53 @@
+.boxdd{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    caret-color: transparent;
+  }
+  
+  h2 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-decoration: 3px underline double rgb(0, 255, 34);
+
+}
+  .booking-cards {
+    width: 250px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    border: 4px solid salmon !important;
+    box-sizing: border-box;
+    background-color: azure;
+  } 
+
+.booking-cards p {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}
+
+.booking-cards p strong {
+    font-size: 18px; 
+    padding-right: 10px;
+    
+}
+
+.booking-cards button{
+    width: 80px;
+    height: 25px;
+    background-color: green;
+    color: rgb(252, 252, 252);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+}

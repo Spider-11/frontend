@@ -1,0 +1,48 @@
+*{
+    caret-color:transparent;
+}
+.ab{
+    text-align: center;
+    justify-content: center;
+
+}
+.ab .dil{
+    display: flex;
+}
+
+ h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+ p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 0px;
+}
+ .dil{
+    display: flex;
+}
+img{
+    margin-top: 0px;
+    width: 40%;
+    height: 300px;
+}
+
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}

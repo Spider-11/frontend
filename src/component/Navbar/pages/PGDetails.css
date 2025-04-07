@@ -1,0 +1,76 @@
+.pg-details-container {
+    max-width: 80%;
+    margin: 2% 0;
+    text-align: center;
+    display: flex;
+  }
+  .left{
+    margin: 0;
+    align-items: flex-start;
+  }
+  .left .pg-full-image {
+    width: 40vw;
+    height: 70vh;
+    object-fit: cover;
+  }
+  .right{
+    text-align: left;
+    padding: 0px 40px;
+  }
+  .right h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 3px double black;
+  }
+  .right p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+  }
+
+  .contacts{
+    width: 80%;
+    height: 10%;
+    margin-top: 10px;
+  }
+  .contacts .book{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-left: 100px;
+    margin-right: 10%;
+    border: none;
+  }
+
+  .contacts .whatsapp{
+    background-color: rgb(4, 190, 4);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-right: 10%;
+    border: none;
+  }
+
+  .contacts .contact{
+    background-color: rgb(45, 94, 230);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+  }
+  .contacts .pay{
+    background-color: rgb(218, 255, 9);
+    color: rgb(146, 37, 248);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-right: 10%;
+    border: none;
+  }

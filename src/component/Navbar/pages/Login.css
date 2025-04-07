@@ -1,0 +1,140 @@
+.form{
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+    width: 50% ;
+    height: 65vh;
+    border: 3px solid gray;
+    border-radius: 10px;
+
+}
+.form .title{
+    font-size: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.entryarea {
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+}
+.entryarea8 {
+    position: relative;
+    height: 80px;
+    line-height: 40px;
+}
+
+.hov {
+    position: absolute;
+    width: 80%;
+    outline: none;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 0 30px;
+    line-height: 60px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    align-items: center;
+    justify-content: center;
+}
+.hov8 {
+    position: absolute;
+    width: 90%;
+    outline: none;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    padding: 0 30px;
+    line-height: 60px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelline {
+    position: absolute;
+    font-size: 1.6rem;
+    color: black;
+    padding: 0 10px;
+    margin: 0 10px;
+    background-color: white;
+    transition: 0.2s ease;
+
+}
+.labelline8 {
+    position: absolute;
+    font-size: 1.6rem;
+    color: black;
+    padding: 0 10px;
+    margin: 0 10px;
+    background-color: white;
+    transition: 0.2s ease;
+
+}
+
+.hov:focus,
+.hov:valid{
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 156, 247);
+}
+
+.hov:focus + .labelline,
+.hov:valid + .labelline {
+    color: rgb(0, 202, 202);
+    height: 30px;
+    line-height: 30px;
+    transform: translate(-15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+
+.hov8:focus,
+.hov8:valid{
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(0, 156, 247);
+}
+
+.hov8:focus + .labelline8,
+.hov8:valid + .labelline8 {
+    color: rgb(0, 202, 202);
+    height: 30px;
+    line-height: 30px;
+    transform: translate(-15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+.login{
+    display: flex;
+}
+.login .bt{
+    width: 60%;
+    color: white;
+    background-color: rgb(44, 44, 255);
+    height: 40px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+.regist h4{
+    text-align: right;
+}
+
+.regist h4 a{
+    text-decoration: none;
+    color: rgb(78, 104, 221);
+}
