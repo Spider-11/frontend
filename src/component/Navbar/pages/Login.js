@@ -17,7 +17,7 @@ const Login = ({ setUser }) => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', { email, password, role });
+      const response = await axios.post('https://pgbackend-6998.onrender.com/api/auth/login', { email, password, role });
 
       if (response.data.user) {
         alert(response.data.message);
