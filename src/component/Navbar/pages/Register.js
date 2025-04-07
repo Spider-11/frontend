@@ -45,7 +45,7 @@ const Register = () => {
         try {
             const userData = { firstname, lastname, mobile, email, password, role };
     
-            const response = await axios.post('http://localhost:5000/api/auth/register', userData);
+            const response = await axios.post('https://pgbackend-6998.onrender.com/api/auth/register', userData);
     
             alert(response.data.message);
             localStorage.setItem("user", response.data.user._id);
