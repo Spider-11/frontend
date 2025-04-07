@@ -31,7 +31,7 @@ const PGDetails = ({user}) => {
     }
   
     try {
-      const response = await axios.post("http://localhost:5000/api/bookings/book", {
+      const response = await axios.post("https://pgbackend-6998.onrender.com/api/bookings/book", {
         userId: user._id,
         ownerId: pg.ownerId,
         pgId: pg._id,
