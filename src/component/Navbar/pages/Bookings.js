@@ -25,7 +25,7 @@ const Bookings = () => {
         const fetchBookings = async () => {
             try {
                 console.log("Fetching bookings for user:", user._id);
-                const response = await axios.get(`http://localhost:5000/api/bookings/owner/${user._id}`);
+                const response = await axios.get(`https://pgbackend-6998.onrender.com/api/bookings/owner/${user._id}`);
                 setBookings(response.data);
             } catch (error) {
                 console.error("Error fetching bookings:", error);
@@ -37,7 +37,7 @@ const Bookings = () => {
 
   const handleUpdateStatus= async (bookingId,status) => {
     try{
-      await axios.put(`http://localhost:5000/api/bookings/update/${bookingId}`,{status});
+      await axios.put(`https://pgbackend-6998.onrender.com/api/bookings/update/${bookingId}`,{status});
       setBookings(bookings.map(booking=>(booking._id===bookingId ? {...booking,status}:booking)));
     }
     catch(error)
