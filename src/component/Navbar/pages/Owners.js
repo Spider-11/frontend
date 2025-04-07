@@ -10,7 +10,7 @@ const Owners = () => {
 
     const fetchOwners = async () => {
         try {
-            const response = await axios.get("http://localhost:5000/api/show/Owners");
+            const response = await axios.get("https://pgbackend-6998.onrender.com/api/show/Owners");
             setOwners(response.data);
         } catch (error) {
             console.error("Error fetching owners:", error);
@@ -21,7 +21,7 @@ const Owners = () => {
         if (!window.confirm("Are you sure you want to delete this owner?")) return;
 
         try {
-            await axios.delete(`http://localhost:5000/api/delete/${id}`);
+            await axios.delete(`https://pgbackend-6998.onrender.com/api/delete/${id}`);
             setOwners(owners.filter((owner) => owner._id !== id));
             alert("✅ Owner Deleted Successfully");
         } catch (error) {
