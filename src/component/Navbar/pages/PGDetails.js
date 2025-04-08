@@ -67,7 +67,7 @@ const PGDetails = ({user}) => {
     <>
     <div className='pg-details-container'>
         <div className='left'>
-      <img src={pg.imageUrl ? `https://pgbackend-6998.onrender.com/uploads/${pg.imageUrl}` : 'https://via.placeholder.com/150'} alt={pg.name} className='pg-full-image' />
+      <img src={pg.imageUrl ? `https://pgbackend-6998.onrender.com${pg.imageUrl}` : 'https://via.placeholder.com/150'} alt={pg.name} className='pg-full-image' />
       </div>
       <div className='right'>
       <h1>{pg.name}</h1>
