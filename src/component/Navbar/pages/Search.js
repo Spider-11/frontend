@@ -49,7 +49,7 @@ const Search = () => {
           filteredPGs.map((pg) => (
             <div key={pg._id} className='pg-card' onClick={() => handlePGClick(pg)}>
               <img
-                src={pg.imageUrl ? `https://pgbackend-6998.onrender.com${pg.imageUrl}` : 'https://via.placeholder.com/150'}
+                src={pg.imageUrl ? pg.imageUrl : 'https://via.placeholder.com/150'}
                 alt={pg.name}
                 className='pg-image'
               />
