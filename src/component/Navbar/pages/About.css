@@ -1,6 +1,10 @@
 *{
     caret-color:transparent;
 }
+body
+{
+    background: gray;
+}
 .ab{
     text-align: center;
     justify-content: center;
