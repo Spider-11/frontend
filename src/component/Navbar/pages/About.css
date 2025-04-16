@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
     background-attachment: fixed;
     background-size: cover;
     color: white;
