@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;600&display=swap');
+
 *{
     caret-color:transparent;
 }
 body {
-    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+    font-family: 'Poppins', sans-serif;
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    caret-color: transparent;
 }
 
 .ab{
@@ -18,14 +21,15 @@ body {
 }
 
  h5{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 40px;
     text-align: left;
     margin-bottom: 20px;
     width: 100%;
 }
  p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
     text-align: left;
     margin-top: 10px;
@@ -33,7 +37,8 @@ body {
     margin-bottom: 20px;
 }
 h6{
-    font-family: 'Times New Roman', Times, serif;
+    ffont-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 30px;
     text-align: left;
     margin-bottom: 20px;
@@ -50,6 +55,7 @@ img{
 }
 
 pre{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+   
 }
