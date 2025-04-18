@@ -131,14 +131,25 @@
   max-width: 700px;
   margin: 30px auto;
   padding: 30px;
-  border: 3px solid #4A90E2; /* Stylish blue border */
-  border-radius: 20px;        /* Curved corners */
-  background: #f9f9f9;        /* Light background for contrast */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border: 3px solid #4A90E2;
+  border-radius: 20px;
+  background: #f9f9f9;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
+
+  max-height: 90vh;      /* Limit height to 90% of viewport */
+  overflow-y: auto;      /* Scroll vertically if content exceeds */
+  scrollbar-width: thin; /* For Firefox */
 }
 
-.manjit:hover {
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Shadow on hover */
-  transform: scale(1.01); /* Slight zoom effect */
+/* Optional: Smooth and styled scrollbar for WebKit browsers */
+.manjit::-webkit-scrollbar {
+  width: 8px;
+}
+.manjit::-webkit-scrollbar-track {
+  background: transparent;
+}
+.manjit::-webkit-scrollbar-thumb {
+  background-color: #4A90E2;
+  border-radius: 10px;
 }
