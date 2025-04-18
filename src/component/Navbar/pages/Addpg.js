@@ -61,6 +61,7 @@ const Addpg = () => {
     
     return (
         <>
+        <div className='manjit'>
             <h2 className='hh'>Add The PG Details</h2>
             <form onSubmit={handleSubmit}>
                 {[
@@ -119,6 +120,7 @@ const Addpg = () => {
                     <button type='submit' className='bt2'>Create</button>
                 </div>
             </form>
+        </div>
         </>
     );
 };
